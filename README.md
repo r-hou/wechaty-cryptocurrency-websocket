@@ -5,7 +5,7 @@ categories: tutorial
 tags:
   - cryptocurrency, binance
 ---
-
+[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://wechaty.js.org)
 > 作者: [r-hou](https://github.com/r-hou)，学生，加密货币爱好者。
 > 
 [![Wechaty-Cryptocurrency-Notification](./pics/wechaty-btc.jpg)](https://github.com/r-hou/wechaty-cryptocurrency-websocket)
