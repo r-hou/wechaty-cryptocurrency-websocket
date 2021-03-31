@@ -1,7 +1,7 @@
 ---
 title: "使用wechaty提醒加密货币行情"
 author: r-hou
-categories: tutorial
+categories: project
 tags:
   - cryptocurrency, binance
 ---
