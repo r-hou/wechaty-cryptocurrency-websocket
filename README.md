@@ -279,7 +279,7 @@ import logger
 
 
 
-WECHATY_PUPPET_SERVICE_TOKEN = ''
+WECHATY_PUPPET_SERVICE_TOKEN = ''#使用上面bash脚本得到的token
 WECHATY_PUPPET = 'wechaty-puppet-service'
 
 os.environ['WECHATY_PUPPET_SERVICE_TOKEN'] = WECHATY_PUPPET_SERVICE_TOKEN
