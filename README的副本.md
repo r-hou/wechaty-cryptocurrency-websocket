@@ -11,7 +11,6 @@ tags:
 
 > 作者: [r-hou](https://github.com/r-hou)，学生，加密货币爱好者。
 > 
-[![Wechaty-Cryptocurrency-Notification](./pics/wechaty-btc.jpg)](https://github.com/r-hou/wechaty-cryptocurrency-websocket)
 
 <!-- more -->
 从2020年3月份以来，加密货币市场随着疫情导致的全球大放水而飞速扩张，BTC的价格从低点\$3800涨到了最高\$60000， 十几倍的涨幅吸引了全球越来越多的个人和机构投资者参与到这个市场。 这个7x24小时的市场瞬息万变，上下几个点甚至几十个点的波动常常在十几分钟甚至几分钟之内就能完成，这么大的波动在给投资者带来丰厚回报的同时也伴随着巨大的风险。作为一名个人投资者，非常希望能够及时得到虚拟货币价格的变动情况而进行交易。
@@ -279,7 +278,7 @@ import logger
 
 
 
-WECHATY_PUPPET_SERVICE_TOKEN = ''
+WECHATY_PUPPET_SERVICE_TOKEN = 'acfbbe16-5f80-4a61-a755-85c27c3f5511'
 WECHATY_PUPPET = 'wechaty-puppet-service'
 
 os.environ['WECHATY_PUPPET_SERVICE_TOKEN'] = WECHATY_PUPPET_SERVICE_TOKEN
@@ -470,7 +469,7 @@ if __name__ == '__main__':
 至此我们的加密货币波动提醒机器人基本框架已经搭好，如果感兴趣的话，大家可以通过搭配k线事件，trade事件和orderbook事件形成新的信号提醒，也可以做各种量化交易提醒。
 
 ## 运行效果
-![](./pics/result.jpg)
+![结果](https://github.com/r-hou/wechaty-cryptocurrency-websocket/blob/main/pics/result.jpg)
 ## 感谢
 
 在最后我们要感谢所有为我们提供工具和服务的团队和个人。特别感谢开源项目[Wechaty](https://github.com/wechaty/wechaty)团队和免费提供服务的padLocal团队。
@@ -479,4 +478,4 @@ if __name__ == '__main__':
 
 ## 最后展示一下我padLocal团队发给我的小证书(非常非常非常感谢!)
 
-![padLocal token](pics/token.jpg)
+![padLocal token](https://github.com/r-hou/wechaty-cryptocurrency-websocket/blob/main/pics/token.jpg)
